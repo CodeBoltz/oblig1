@@ -1,0 +1,109 @@
+p {
+    font-family: monospace;
+    font-size: 23px;
+    font-weight: normal;   
+}
+
+/* code for the navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    background-color: #282828;
+    overflow: hidden;
+    width: 100%;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    margin: 15px 45px;
+    color: white;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(0, 255, 170);
+    text-decoration: underline rgb(0, 255, 170);
+}
+
+/*end of code for Navber*/
+
+.headline {
+    font-family: monospace;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+div img{
+    height: auto;
+    width: 650px;
+    margin: 10px 2px;
+}
+
+.container img{
+    float: left;
+    padding-right: 20px;
+}
+
+div h2{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 20px;
+}
+
+div blockquote{
+    font-family: monospace;
+    font-size: 23px;
+    font-weight: normal; 
+}
+
+.container-work{
+    float: left;
+    width: 600px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.container-education{
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.container-languages{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.container-skills{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.portfolio_image{
+    width: 1000px;
+    height: auto;
+}
+
+.social_icons{
+    width: 50px;
+    height: auto;
+}
