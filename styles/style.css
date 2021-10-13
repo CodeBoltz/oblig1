@@ -1,11 +1,35 @@
+/* general styles applied to all */
+
 p {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     font-weight: normal;   
 }
 
-/* code for the navbar */
-ul {
+div h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+div blockquote{
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 23px;
+    font-weight: normal; 
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: normal; 
+}
+/* end of general styles applied to all */
+
+/* code for the navbar created with help from w3schools source https://www.w3schools.com/css/css_navbar.asp */
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
@@ -15,95 +39,89 @@ ul {
     position: sticky;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     margin: 15px 45px;
     color: white;
-    font-family: monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
 
-li a:hover{
+nav li a:hover{
     color: rgb(0, 255, 170);
     text-decoration: underline rgb(0, 255, 170);
 }
-
 /*end of code for Navber*/
 
+/*start of code for Homepage*/
 .headline {
-    font-family: monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 64px;
     font-weight: bold;
     padding: 0;
-    margin-top: 20px;
-    margin-top: 20px;
-}
-
-div img{
-    height: auto;
-    width: 650px;
-    margin: 10px 2px;
 }
 
 .container img{
     float: left;
-    padding-right: 20px;
+    height: auto;
+    width: 580px;
+    margin: 50px;
 }
+/*end of code for Homepage*/
 
-div h2{
-    font-family: monospace;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0;
-    margin-top: 20px;
+/*start of code for Resume*/
+.container_resume1{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 25px;
+    margin-right: 20px;
 }
+/*end of code for Resume*/
 
-div blockquote{
-    font-family: monospace;
-    font-size: 23px;
-    font-weight: normal; 
+/*start of code for Portfolio*/
+.portfolio_container{
+    padding-left: 45px;
+    
 }
-
-.container-work{
-    float: left;
-    width: 600px;
-    height: 200px;
-    margin-right: 50px;
-}
-
-.container-education{
-    float: left;
-    width: 400px;
-    height: 200px;
-    margin-right: 50px;
-}
-
-.container-languages{
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
-}
-
-.container-skills{
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
+.work_container{
+    width: 1000px;
+    height: auto;
 }
 
 .portfolio_image{
     width: 1000px;
     height: auto;
 }
+/*end of code for Portfolio*/
 
-.social_icons{
-    width: 50px;
+/*start of code for About*/ 
+.container_about{
+    width: 80%;
+    height: auto;
+    padding-left: 45px;
+}
+/*end of code for About*/ 
+
+/*start of code for Contact*/ 
+.contact_container{
+    padding-left: 45px;
+    width: 80%;
     height: auto;
 }
+
+.social_icons{
+    width: 80px;
+    height: auto;
+}
+
+.container_social{
+    float: left;
+    padding-right: 100px;
+}
+/*end of code for Contact*/ 
